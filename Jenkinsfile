@@ -10,7 +10,7 @@ pipeline {
         NEXUS_REPOSITORY = "repository-example"
         NEXUS_CREDENTIAL_ID = "nexus-credentials"
     }
- 
+    stages {
         stage("Maven Build") {
             steps {
                 script {
