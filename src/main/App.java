@@ -1,4 +1,5 @@
 package com.mycompany;
+package sp.sd.nexusartifactuploader.steps;
 public class App  
 {   
 public static void main(String[] args)    
